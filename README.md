@@ -19,3 +19,18 @@ The following example contains transparent rectangles over each area correspondi
 * Check Browser Version (Yellow)
 
 We believe this benchmark is a win-win situation; if no model can solve it, we can point to it as an example of a task that only humans can do. On the other hand, if a model can solve it, the results would be truly revolutionary.
+
+## Evaluating the Benchmark
+
+The screenshots for the benchmark can be found in the `images` folder. The corresponding metadata, including the coordinates of the hitboxes, are stored in the `data.csv` file in the following format:
+
+> name_of_screenshot.png,0.5,0.5,0.52,0.52
+
+The four numbers represent the normalized start/stop X and Y coordinates of the hitboxes.
+
+## TODO
+
+- Upload screenshots and metadata to this repository 
+- Create a website to demonstrate proficiency in the task for human users 
+- Develop a tool to facilitate the creation of additional tests 
+- Create an additional benchmark that allows for more complex user interactions, such as long presses and scrolling.
